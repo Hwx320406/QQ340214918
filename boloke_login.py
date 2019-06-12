@@ -15,7 +15,5 @@ try:
     driver.find_element_by_id('registerformsubmit').submit()
 except BaseException as msg:
     print(msg)
-driver.find_element_by_class_name('z qNv').click()
 
-
-driver.find_element_by_class_name('').send_keys('')
+driver.quit()
